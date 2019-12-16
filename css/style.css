@@ -1,0 +1,31 @@
+html,body,header, #intro{
+    height: 100%;
+}
+#intro{
+    background-image: linear-gradient(to right,rgba(25,32,42,0.71) 54%,rgba(255,120,15,0.09)),  url(../img/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.top-nav-collapse{
+    background-color: #24355c;
+    color:white;
+}
+.nav-number{
+    font-size: 24px;
+}
+.nav-number a{
+    color:white;
+}
+@media (max-width: 768px){
+    .navbar:not(.top-nav-collapse){
+        background: #24355c;
+        color:white;
+    }
+}
+
+.nav-link.active
+{
+	background: #ffbb33 !important;
+	color: white !important;
+}
